@@ -11,7 +11,7 @@ var methodOverride = require('method-override');
 
  const swaggerDefinition = {
   info: {
-    title: 'test API',
+    title: 'Cron API',
     version: '1.0.0',
     description: 'Endpoints to test the user registration routes'
   },

@@ -38,9 +38,9 @@ functions:
     events:
      - http: ANY /{proxy+}
      - http: ANY /
-     - schedule:
-          rate: cron(*/6 * * * ? *)
-          enabled: true
+     # - schedule:
+     #      rate: cron(*/6 * * * ? *)
+     #      enabled: true
 
 # you can add CloudFormation resource templates here
 #resources:
